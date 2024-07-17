@@ -13,6 +13,15 @@ body {
 
 img {
   max-width: 100%;
+  font-style: italic;
+  vertical-align: middle;
+  object-fit: fit;
+  shape-margin: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
 }
 
 .container {
@@ -24,4 +33,67 @@ img {
 .row {
   display: flex;
   justify-content: space-between;
+}
+
+.col {
+  width: 100%;
+}
+
+.col + .col {
+  margin-left: 2.5em;
+}
+
+.hero {
+  background: #f3eed9;
+}
+
+.detail__profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 80%; */
+  /* border-radius: 100%; */
+  /* border: 2px solid red; */
+}
+
+.detail__profile img {
+  width: 300px;
+  height: 300px;
+  /* clip-path: circle(); */
+}
+
+.rounded {
+  border-radius: 100%;
+  border: 10px solid rgb(200, 195, 195);
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.description h2 {
+  margin-top: 0;
+  font-weight: 900;
+}
+
+.description__text {
+  font-weight: 300;
+  /* align-self: flex-start; */
+}
+
+.description__footer {
+  justify-self: flex-end;
+}
+
+.description__footer-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+  /* border: 2px solid seagreen; */
+}
+
+.description__footer-links a {
+  width: 24px;
+  height: 24px;
 }
