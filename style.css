@@ -1,11 +1,12 @@
 body {
-   
     display: flex;
     padding: 5rem 50px;
     flex-direction: column;
     gap: 50px;
+    background: rgba(1, 2, 43, 0.959)
 
 }
+
 nav, ul {
     display: flex;
     justify-content: space-between;
@@ -14,7 +15,7 @@ nav, ul {
 
 
 ul {
-    gap: 10px;
+    gap: 20px;
 }
 
 ul li {
@@ -23,9 +24,43 @@ list-style: none;
 
 a {
     text-decoration: none;
-    color: black;
+    color: WHITE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo-image {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #a31414;
+    border-radius: 50%;}
+header a:hover {
+color: rgba(238, 14, 14, 0.884);
 }
 
-header a:hover {
-color: rgb(17, 109, 246);
+h1{
+    font-style: oblique;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgba(238, 14, 14, 0.884);
+    text-shadow: 3px 3px 3ch #15d8ce;
+}
+div{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 3ch #15d8ce;
+    font-weight: 200;
+    color: #cfd1e2;
+    
+}
+.mon_image {
+    width: 900px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #15d8ce;
 }
