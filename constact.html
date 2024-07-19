@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-contact.css">
 </head>
 <body>
     <header>
@@ -19,11 +20,74 @@
             </ul>
         </nav>
     </header>
-    <h1>Contact</h1>
+    <main>
+        <h2>Le Formulaire</h2>
     <p>Prenez contact avec les développeurs du dark.</p>
-    <form action="#" method="post">
-        <input type="text" placeholder="Noms">
-        <button type="submit">ENVOYER</button>
-    </form>
+    <form action="#" method="GET">
+            <div class="content">
+                <div class="form-group">
+                    <label>Prenom</label>
+                    <input type="text" name="prenom" placeholder="Ex. : heritier" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Nom</label>
+                    <input type="text" name="prenom" placeholder="Ex. : Ndangani" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Prenom </label>
+                    <input type="text" name="postnom" placeholder="Ex. : Batupende" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Lieu de naissance</label>
+                    <input type="text" name="lieuNaiss" placeholder="Ex. : Haut-Lomami" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Date de naissance </label>
+                    <input type="date" name="date"> 
+                </div>
+                
+                <div class="form-group">
+                    <label>Genre</label>
+                    <label><input type="radio" name="genre" value="masculin">Masculin</label>
+                    <label><input type="radio" name="genre" value="feminin">Féminin</label>
+                </div>
+                
+                <div class="form-group">
+                    <label>Dans quelle ville habitez-vous ? </label><br>
+                    <select name="ville" id="ville">
+                        <option value="Kinshasa">Kinshasa</option>
+                        <option value="Lubumbashi">Lubumbashi</option>
+                        <option value="Kananga">Kananga</option>
+                        <option value="Goma">Goma</option>
+                        <option value="Beni">Beni</option>
+                        <option value="Bunia">Bunia</option>
+                        <option value="Kolwezi">Kolwezi</option>
+                        <option value="Matadi">Matadi</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label>Email </label>
+                    <input type="email" name="email" placeholder="Ex. : heritierndangani217@gmail.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Numéro</label>
+                    <input type="tel" name="telephone" placeholder="Ex. : 0818969931" required>
+                </div>
+            
+                <div class="form-group">
+                    <label>Des conseils pour améliorer nos services ?</label>
+                    <textarea name="ameliorer" rows="3" cols="50"></textarea>
+                </div>
+                
+                <input type="submit" value="Envoyer">
+            </div>
+        </form>
+    </main>
 </body>
 </html>
