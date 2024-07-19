@@ -1,15 +1,26 @@
 body {
   display: flex;
-  padding: 5rem 50px;
   flex-direction: column;
   gap: 50px;
   display: flex;
-  padding: 5rem 50px;
+  padding: 5rem 0;
   flex-direction: column;
   gap: 50px;
-  background: url(4487829-ciel-etoile-nuit-avec-etoiles-lune-et-nuages-gratuit-vectoriel.jpg);
+  margin: 0;
 }
 
+#hero-section {
+  background: url(4487829-ciel-etoile-nuit-avec-etoiles-lune-et-nuages-gratuit-vectoriel.jpg);
+  height: 80vh;
+}
+
+section {
+  padding: 25px 8rem;
+}
+
+nav {
+  padding: 0 50px;
+}
 nav,
 ul {
   display: flex;
@@ -54,7 +65,7 @@ div {
   align-items: center;
   gap: 90px;
 }
-p {
+#page-description {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
   text-shadow: 3px 3px 3ch #15d8ce;
@@ -79,6 +90,10 @@ p {
   margin-top: 20px;
 }
 .card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
   width: 31%;
   background-color: #ebe5e5;
   border-radius: 8px;
@@ -92,7 +107,11 @@ img {
   height: 250px;
 }
 .description {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   margin: 15px;
+  gap: 10px;
 }
 #button {
   display: inline-block;
