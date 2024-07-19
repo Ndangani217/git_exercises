@@ -58,7 +58,7 @@ h1 {
   color: rgb(17, 109, 246);
   text-shadow: 3px 3px 3ch #15d8ce;
 }
-div {
+#hero-section__contents-container  {
   display: flex;
   align-items: center;
   gap: 90px;
