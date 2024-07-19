@@ -28,3 +28,21 @@ a {
 header a:hover {
 color: rgb(17, 109, 246);
 }
+form,div{
+    margin-top: 20px;
+}
+.btn-Envoyer{
+
+background-color: #EEA302;
+    border-radius: 50%;
+    border: none;
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+}
+.message{
+    display:flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 500px;
+}

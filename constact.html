@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Contact</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -19,11 +22,28 @@
             </ul>
         </nav>
     </header>
+    <main>
     <h1>Contact</h1>
     <p>Prenez contact avec les développeurs du dark.</p>
     <form action="#" method="post">
-        <input type="text" placeholder="Noms">
-        <button type="submit">ENVOYER</button>
+        <div>
+            <input type="text" placeholder="Noms">
+            <input type="text" placeholder="">
+        </div>
+        <div>
+            <input type="text" placeholder="Post Nom">
+            <input type="text" placeholder="">
+        </div>
+        <div>
+            <input type="text" placeholder="Prenom">
+            <input type="text" placeholder="">
+        </div>
+        <div class="message">
+            <label for="message" id="message" name="message" >massage</label><br>
+            <textarea name="massage" id="massage"  rows="8"></textarea>
+            <button class="btn-Envoyer" type="submit">ENVOYER</button>
+        </div>
     </form>
+    </main>
 </body>
 </html>
