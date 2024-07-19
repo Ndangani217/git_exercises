@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style-contact.css">
+</head>
+<body>
+    <main>
+        <h2>Les renseignements de visteurs</h2>
+        <form action="#" method="GET">
+            <div class="content">
+                <div class="form-group">
+                    <label>Prenom</label>
+                    <input type="text" name="prenom">
+                </div>
+                
+                <div class="form-group">
+                    <label>Nom</label>
+                    <input type="text" name="prenom" placeholder="Ex. : heritier">
+                </div>
+                
+                <div class="form-group">
+                    <label>Prenom </label>
+                    <input type="text" name="postnom" placeholder="Ex. : Ndangani">
+                </div>
+                
+                <div class="form-group">
+                    <label>Lieu de naissance</label>
+                    <input type="text" name="lieuNaiss" placeholder="Ex. : Haut-Lomami">
+                </div>
+
+                <div class="form-group">
+                    <label>Date de naissance </label>
+                    <input type="date" name="date"> 
+                </div>
+                
+                <div class="form-group">
+                    <label>Genre</label>
+                    <label><input type="radio" name="genre" value="masculin">Masculin</label>
+                    <label><input type="radio" name="genre" value="feminin">Féminin</label>
+                </div>
+                
+                <div class="form-group">
+                    <label>Dans quelle ville habitez-vous ? </label><br>
+                    <select name="ville" id="ville">
+                        <option value="Kinshasa">Kinshasa</option>
+                        <option value="Lubumbashi">Lubumbashi</option>
+                        <option value="Kananga">Kananga</option>
+                        <option value="Goma">Goma</option>
+                        <option value="Beni">Beni</option>
+                        <option value="Bunia">Bunia</option>
+                        <option value="Kolwezi">Kolwezi</option>
+                        <option value="Matadi">Matadi</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label>Email </label>
+                    <input type="email" name="email" placeholder="Ex. : heritierndangani217@gmail.com">
+                </div>
+                
+                <div class="form-group">
+                    <label>Numéro</label>
+                    <input type="tel" name="telephone" placeholder="Ex. : 0818969931">
+                </div>
+                
+                <div class="form-group">
+                    <label>Quelle est votre couleur préférer</label>
+                    <label><input type="checkbox" name="red" id="red">Rouge</label>
+                    <label><input type="checkbox" name="blue" id="blue">Blue</label>
+                    <label><input type="checkbox" name="yellow" id="yellow">Jaune</label>
+                    <label><input type="checkbox" name="black" id="black">Noir</label>
+                    <label><input type="checkbox" name="orange" id="orange">Orange</label>
+                    <label><input type="checkbox" name="brown" id="brown">Marron</label>
+                    <label><input type="checkbox" name="white" id="white">Blanc</label>
+                </div>
+                
+                <div class="form-group">
+                    <label>Des conseils pour améliorer?</label>
+                    <textarea name="ameliorer" rows="3" cols="50"></textarea>
+                </div>
+                
+                <input type="submit" value="Envoyer">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
