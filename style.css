@@ -1,7 +1,5 @@
 body {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
+ 
   display: flex;
   padding: 5rem 0;
   flex-direction: column;
