@@ -1,5 +1,4 @@
 body {
- 
   display: flex;
   padding: 5rem 0;
   flex-direction: column;
@@ -58,7 +57,7 @@ h1 {
   color: rgb(17, 109, 246);
   text-shadow: 3px 3px 3ch #15d8ce;
 }
-#hero-section__contents-container  {
+#hero-section__contents-container {
   display: flex;
   align-items: center;
   gap: 90px;
@@ -124,7 +123,6 @@ img {
   cursor: pointer;
 }
 
-
 .contibuteur-section__list {
   display: flex;
   flex-direction: column;
@@ -133,12 +131,14 @@ img {
 
 .contibuteur-section__list li {
   display: flex;
-  gap: 10px;
+  align-items: center;
+  gap: 30px;
 }
 
 .contibuteur-section__list li img {
+  width: 40px;
   height: 40px;
-  border-radius: 100px;
+  border-radius: 100%;
 }
 
 .contibuteur-section__list li a {
