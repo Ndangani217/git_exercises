@@ -77,3 +77,23 @@ textarea {
 input[type="checkbox"] {
     margin-right: 10px;
 }
+.contibuteur-section__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .contibuteur-section__list li {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .contibuteur-section__list li img {
+    height: 40px;
+    border-radius: 100px;
+  }
+  
+  .contibuteur-section__list li a {
+    text-decoration: none;
+    color: rgb(74, 74, 73);
+  }
